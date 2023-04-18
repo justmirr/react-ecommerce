@@ -8,4 +8,4 @@ It is a full-stack web application being built using the MERN stack. This applic
 4. Navigate to the client directory.
 5. Install the required dependencies by typing 'npm install'.
 6. To start the application, type 'npm start'.
-7. To start the back-end of the application, type 'npm run server'.
+7. To start the back-end of the application, navigate to the root directory and type 'npm run server'.
