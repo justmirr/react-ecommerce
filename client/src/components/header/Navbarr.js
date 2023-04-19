@@ -22,7 +22,7 @@ const Navbarr = () => {
                 </div>
                 <div className="right">
                     <div className="nav_btn">
-                        <a href="">sign in</a>
+                        <a href="#">sign in</a>
                     </div>
                     <div className="cart_btn">
                     <Badge badgeContent={4} color="primary">
