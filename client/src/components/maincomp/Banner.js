@@ -26,8 +26,9 @@ const Banner = () => {
                         background: "#c0ebcb",
                         color: "#252525",
                         borderRadius: 0,
-                        marginTop: -22,
+                        marginTop: -31,
                         height: "104px",
+                        borderRadius: "3px"
                     }
                 }}>
                 {

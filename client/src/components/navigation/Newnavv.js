@@ -8,16 +8,13 @@ const Newnavv = () => {
         <div className="left_data">
           <p>all</p>
           <p>mobile</p>
-          <p>best Seller</p>
           <p>fashion</p>
-          <p>customer services</p>
           <p>electronics</p>
-          <p>prime</p>
+          <p>best seller</p>
           <p>today's deals</p>
-          <p>amazon pay</p>
-        </div>
-        <div className="right_data">
-
+          <p>customer services</p>
+          <p>my orders</p>
+          <p>about us</p>
         </div>
       </div>
     </div>
