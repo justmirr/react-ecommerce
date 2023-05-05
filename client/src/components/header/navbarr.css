@@ -19,13 +19,13 @@ header nav{
 }
 
 header nav .navlogo img{
-    width: 110px;
-    margin-top: 10px;
+    width: 130px;
 }
 
 header nav .left{
     display: flex;
     justify-content:space-around;
+    
     align-items: center;
     /* border: 2px solid red; */
     flex: .7;
@@ -86,9 +86,9 @@ header nav .right .nav_btn a{
 
 
 
-/* header nav .right .nav_btn a:hover{
-    border: 1px solid white;
-} */
+header nav .right .nav_btn a:hover{
+    color: rgb(43, 43, 137);
+}
 
 header nav .right .cart_btn{
     display: flex;
@@ -126,6 +126,7 @@ header nav .right .cart_btn p{
 }
 
 header nav .avtar{
+    margin-left: 5px;
     cursor: pointer;
 }
 header nav .avtar2{

@@ -9,7 +9,16 @@ const Maincomp = () => {
         <div className="banner_part">
             <Banner />
         </div>
-        <Slide />
+        <div className="slide_part">
+          <div className="left_slide">
+            <Slide/>
+          </div>
+          <div className="right_slide">
+            <h3>new launches</h3>
+            <img src="" alt="" />
+          </div>
+        </div>
+        {/* <Slide /> */}
     </div>
   )
 }
