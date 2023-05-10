@@ -14,7 +14,6 @@ const data = [
 const Banner = () => {
     return (
         <>
-
             <Carousel
                 className="carousel"
                 autoPlay={true}

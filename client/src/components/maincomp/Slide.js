@@ -51,7 +51,7 @@ const Slide = () => {
                     return(
                         <div className="products_items">
                             <div className="product_img">
-                                <img src="e.url" alt="item" />
+                                <img src={e.url} alt="item" />
                             </div>
                             <p className="products_name">
                                 {e.title.shortTitle}

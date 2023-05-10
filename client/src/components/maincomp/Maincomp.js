@@ -15,7 +15,9 @@ const Maincomp = () => {
           </div>
           <div className="right_slide">
             <h3>new launches</h3>
-            <img src="" alt="" />
+            <img src="https://m.media-amazon.com/images/I/31iKvmedmiL._SY445_SX342_QL70_FMwebp_.jpg" alt="fridge" />
+            <p>LG Digital Inverter Refrigerator</p>
+            <p>9999</p>
           </div>
         </div>
         {/* <Slide /> */}

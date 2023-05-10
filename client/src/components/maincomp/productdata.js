@@ -1,27 +1,27 @@
 export const products = [
     { 
-        id: 'product1',
-        url: '#', 
-        detailUrl: '#',
+        id: 'smartled',
+        url: 'https://m.media-amazon.com/images/I/81oHGrH1PwL._SL1500_.jpg', 
+        detailUrl: 'https://m.media-amazon.com/images/I/81oHGrH1PwL._SL1500_.jpg',
         title: {
-            shortTitle: 'category',
-            longTitle: 'product'
+            shortTitle: 'VW 80CM Smart TV',
+            longTitle: 'VW 80CM Smart TV'
         }, 
         price: {
-            mrp: 1195,
-            cost: 625,
-            discount: '47%'
+            mrp: 11999,
+            cost: 9999,
+            discount: '23%'
         },
-        description: 'desc',
-        discount: 'disc', 
-        tagline: 'deal' 
+        description: 'Frameless Series HD Ready Android Smart LED TV VW32S (Black)',
+        discount: '23%', 
+        tagline: 'Hot Deal' 
     },
     { 
-        id: 'product2',
-        url: '#', 
-        detailUrl: '#',
+        id: '14promax',
+        url: 'https://m.media-amazon.com/images/I/71yzJoE7WlL._SX679_.jpg', 
+        detailUrl: 'https://m.media-amazon.com/images/I/71yzJoE7WlL._SX679_.jpg',
         title: {
-            shortTitle: 'category',
+            shortTitle: 'Apple iPhone 14 Pro Max',
             longTitle: 'product'
         },
         price: {
@@ -34,11 +34,11 @@ export const products = [
         tagline: 'deal' 
     },
     { 
-        id: 'product3',
-        url: '#', 
-        detailUrl: '#', 
+        id: 'galaxywatch',
+        url: 'https://m.media-amazon.com/images/I/6128OgyhQTL._SX522_.jpg', 
+        detailUrl: 'https://m.media-amazon.com/images/I/6128OgyhQTL._SX522_.jpg', 
         title: {
-            shortTitle: 'category',
+            shortTitle: 'Samsung Galaxy Watch 4',
             longTitle: 'product'
         }, 
         price: {
@@ -51,11 +51,11 @@ export const products = [
         tagline: 'deal' 
     },
     { 
-        id: 'product4',
-        url: '#', 
-        detailUrl: '#',
+        id: 'shoesaf1',
+        url: 'https://m.media-amazon.com/images/I/61usvhooCCL._UX695_.jpg', 
+        detailUrl: 'https://m.media-amazon.com/images/I/61usvhooCCL._UX695_.jpg',
         title: {
-            shortTitle: 'category',
+            shortTitle: 'Nike Air Force 1 Low WMNS',
             longTitle: 'product',
         }, 
         price: {
@@ -68,9 +68,9 @@ export const products = [
         tagline: 'deal' 
     },
     { 
-        id: 'product5',
-        url: '#',
-        detailUrl: '#', 
+        id: 'mixergrinder',
+        url: 'https://m.media-amazon.com/images/I/71QNtftyeuL._SX522_.jpg',
+        detailUrl: 'https://m.media-amazon.com/images/I/71QNtftyeuL._SX522_.jpg', 
         title: {
             shortTitle: 'category',
             longTitle: 'product'
