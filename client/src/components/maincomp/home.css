@@ -5,11 +5,11 @@
     background-color: #e7e7e7;
     min-height: calc(100vh - 60px);
     border-bottom: 2px solid rgb(199, 199, 199);
-    margin-bottom: 10px;
+    margin-bottom: -1px;
 }
 
 .home_section .right_slide h3{
-    color: #444;
-    font-weight: 500;
-    font-size: 19px;
+    /* color: #444; */
+    /* font-weight: 500;
+    font-size: 19px; */
 }

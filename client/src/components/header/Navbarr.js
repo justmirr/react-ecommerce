@@ -4,6 +4,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Avatar from '@mui/material/Avatar';
+import { NavLink } from 'react-router-dom';
+
 
 const Navbarr = () => {
     return (
@@ -11,26 +13,30 @@ const Navbarr = () => {
             <nav>
                 <div className="left">
                     <div className="navlogo">
-                        <img src="./logo.png" alt=""/>
-                    </div>  
+                        <NavLink to="./">
+                            <img src="./logo.png" alt="" />
+                        </NavLink>
+                    </div>
                     <div className="navsearchbar">
-                        <input type="text" name="" id=""/>
+                        <input type="text" name="" id="textt" />
                         <div className="search_icon">
-                            <SearchIcon id="search"/> 
+                            <SearchIcon id="search" />
                         </div>
-                    </div>  
+                    </div>
                 </div>
                 <div className="right">
                     <div className="nav_btn">
-                        <a href="#">sign in</a>
+                        <NavLink to="/login">sign in</NavLink>
                     </div>
-                    <div className="cart_btn">
-                    <Badge badgeContent={4} color="primary">
-                        <ShoppingCartIcon id="icon"/>
-                    </Badge>    
-                    <p>cart</p>
-                    </div>
-                    <Avatar className="avtar"/>
+                    <NavLink to="/buynow">
+                        <div className="cart_btn">
+                            <Badge badgeContent={1} color="primary">
+                                <ShoppingCartIcon id="icon" />
+                            </Badge>
+                            <p>cart</p>
+                        </div>
+                    </NavLink>
+                    <Avatar className="avtar" />
                 </div>
             </nav>
         </header>
